@@ -1,0 +1,46 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  /* background: #ccc; */
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+.main-img {
+  width: 100%;
+}
+
+/* 이미지는 부모 레아아웃 크기에 맞춤 */
+.main-img img, .img-thumb img {
+  width: 100%;
+}
+
+.img-thumb {
+  display: flex;
+}
+
+.img-thumb li {
+  /* outline: 2px solid red; */
+  padding: 5px;
+}
+
+
+/* 갤러리 문서 중앙 정렬 */
